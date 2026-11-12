@@ -154,14 +154,18 @@
   <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Models\Meshy_AI_cemetery_island_terrain_20261111_texture.mtl" />
     <None Include="Shader\lamp.frag" />
     <None Include="Shader\lamp.vs" />
     <None Include="Shader\lighting.frag" />
     <None Include="Shader\lighting.vs" />
     <None Include="Shader\modelLoading.frag" />
     <None Include="Shader\modelLoading.vs" />
+    <None Include="Shader\SkyBox.frag" />
+    <None Include="Shader\SkyBox.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="images\ave.jpeg" />
@@ -171,6 +175,7 @@
     <Image Include="images\ladrillo.jpeg" />
     <Image Include="images\muro.png" />
     <Image Include="images\window.png" />
+    <Image Include="Models\Meshy_AI_cemetery_island_terrain_20261111_texture.png" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="KeyFrames.cpp" />
